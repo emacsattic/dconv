@@ -4,10 +4,10 @@
 
 ;; Author: Jonas Bernoulli <jonas@bernoulli.cc>
 ;; Created: 20081202
-;; Updated: 20081202
+;; Updated: 20090118
 ;; Version: 0.0.1
 ;; Homepage: https://github.com/tarsius/dconv
-;; Keywords: 
+;; Keywords: dates
 
 ;; This file is not part of GNU Emacs.
 
@@ -33,6 +33,8 @@
 ;;       simply return nil.  Convinient since this relieves callers from
 ;;       the need to verify the argument first which would otherwise be
 ;;       needed a lot in library `elx.el' for which this was written.
+;; Note: Some libraries that might provide similar functionality:
+;;       `date-calc.el', `strptime.el'.
 ;; Note: You shouldn't use this library yet - it has to be polished first.
 
 ;; TODO: Support more output formats.
