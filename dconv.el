@@ -1,11 +1,11 @@
 ;;; dconv.el --- convert date strings
 
-;; Copyright (C) 2008 Jonas Bernoulli
+;; Copyright (C) 2008, 2009  Jonas Bernoulli
 
-;; Author: Jonas Bernoulli <jonas@bernoulli.cc>
+;; Author: Jonas Bernoulli <jonas@bernoul.li>
 ;; Created: 20081202
-;; Updated: 20090118
-;; Version: 0.0.1
+;; Updated: 20090319
+;; Version: 0.0.2
 ;; Homepage: https://github.com/tarsius/dconv
 ;; Keywords: dates
 
