@@ -1,13 +1,12 @@
 ;;; dconv.el --- OBSOLETE convert date strings
 
-;; Copyright (C) 2008, 2009, 2010  Jonas Bernoulli
+;; Copyright (C) 2008-2012  Jonas Bernoulli
 
 ;; Author: Jonas Bernoulli <jonas@bernoul.li>
 ;; Created: 20081202
-;; Updated: 20100907
-;; Version: 0.0.3
+;; Version: 0.1.0
 ;; Homepage: https://github.com/tarsius/dconv
-;; Keywords: dates
+;; Keywords: date, time
 
 ;; This file is not part of GNU Emacs.
 
@@ -28,12 +27,8 @@
 
 ;; Convert date strings to "YYYYMMDD" format.
 
-;; This library is a hack and I have no intention to ever to ever complete
-;; it.  It is currently used by my `elx.el' but I plan to replace it with
-;; a better solution.  At least `date-calc.el' and `strptime.el' provide
-;; similar (and much more) functionality but at least the latter does not
-;; work with GNU Emacs.  Do not use this library; I only keep it alive
-;; until I have settled for a replacement.
+;; OBSOLETE --- You are better of handling the simple cases yourself and
+;; using `parse-time-string' for the rest.
 
 ;;; Code:
 
